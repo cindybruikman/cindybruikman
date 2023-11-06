@@ -1,0 +1,33 @@
+.header {
+  margin: auto;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: #1b445e;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  font-family: "Lusitana", serif;
+}
+
+.list a {
+  text-decoration: none;
+  color: #fffdf0;
+  margin-right: 20px;
+}
+
+.list a:hover,
+.list a.active {
+  color: #cdb99e;
+}
+
+.logo {
+  margin-right: 20px;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

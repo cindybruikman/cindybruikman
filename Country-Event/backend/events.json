@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "id": "e1",
+      "title": "Summer Jam Fest",
+      "date": "16-06-2023",
+      "image": "https://i477212.hera.fhict.nl/Bewijslast3/Overdraagbare%20code/PP/photo1.png",
+      "description": "The ultimate country music extravaganza! Get your tickets now and experience the hottest artists in the genre live on stage."
+    },
+    {
+      "id": "e2",
+      "title": "Country Roots Festival",
+      "date": "08-06-2023",
+      "image": "https://i477212.hera.fhict.nl/Bewijslast3/Overdraagbare%20code/PP/photo2.png",
+      "description": "Welcome to the spectacular tribute to the unforgettable Loretta Lynn, the queen of country music and a true legend! Get ready for an evening filled with enchanting melodies, inspiring stories, and a tribute to a musical icon."
+    },
+    {
+      "id": "e3",
+      "title": "Nashville Nights Showcase",
+      "date": "09-06-2023",
+      "image": "https://i477212.hera.fhict.nl/Bewijslast3/Overdraagbare%20code/PP/photo3.png",
+      "description": "Discover the next generation of country music stars in an intimate setting. Experience raw talent and authentic country sound like never before."
+    }
+  ]
+}

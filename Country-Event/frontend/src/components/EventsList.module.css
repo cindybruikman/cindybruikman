@@ -1,0 +1,69 @@
+.events {
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #1b445e;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.item img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+}
+.item h2 {
+  margin: 0 0 1rem 0;
+  font-family: "bely-display", sans-serif;
+  color: #1b445e;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.event_discription {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.event_button {
+  background-color: #ab240f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  float: left;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.event_button:hover {
+  background-color: #1b445e;
+  color: white;
+}

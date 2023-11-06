@@ -1,0 +1,21 @@
+{
+  "name": "Reis applicatie David",
+  "short_name": "Reis Blog",
+  "description": "Reis Blog met hotspots",
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "thema_color": "#3367D6",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "size": "192x192"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
