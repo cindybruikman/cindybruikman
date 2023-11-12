@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  display: flex;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+}
+
+div.easter_egg {
+  width: 2cm;
+  height: 2cm;
+  top: -100vh;
+  background-size: cover;
+  position: fixed;
+  z-index: 99999;
+  transform: rotateX(var(--rotx)) rotateY(var(--roty)) rotateZ(var(--rotz))
+    scale(var(--scale));
+}
+
+/*Popup menu*/
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 0px;
+  z-index: 10;
+  background-color: #000c6e;
+  width: 500px;
+  max-width: 80%;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.button-career {
+  background-color: #ea0a2a;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
