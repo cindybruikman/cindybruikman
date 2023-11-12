@@ -1,1 +1,1 @@
-# Tony's Chocolonely GAME | HTML, CSS & JS
+# Tony's Chocolonely Game | HTML, CSS & JS
